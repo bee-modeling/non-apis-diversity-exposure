@@ -1,4 +1,4 @@
-### B. affinis analysis
+### non-apis diversity 
 
 ### 00 Setup of directories and file paths
 
@@ -29,6 +29,8 @@ library(data.table)
 library(gtools)
 library(gstat)
 
+library(beecoSp)
+
 
 who_is_running<-'eap'
 #who_is_running<-'stp'
@@ -45,3 +47,5 @@ memory.limit(size=56000)
 
 root_data_in <- file.path(root_dir, "data")
 root_src <- file.path(root_dir, "src")
+cdl_dir_all<-file.path(root_data_in, "CDL")
+pest_dir<-file.path(root_data_in, "output_pesticides")

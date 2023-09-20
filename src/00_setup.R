@@ -28,6 +28,7 @@ library(exactextractr)
 library(data.table)
 library(gtools)
 library(gstat)
+library(viridis)
 
 library(beecoSp)
 
